@@ -24,7 +24,7 @@ h1 {
 h2 {
   font-size: 64px;
 }
-h4{
+h4 {
   font-size: 48px;
 }
 .hero {
@@ -130,7 +130,7 @@ footer .email-link {
 footer .email-link:hover {
   color: var(--branding-color);
 }
-footer.contact-links a {
+footer .contact-links a {
   margin: 0 20px;
   color: var(--branding-color);
   background-color: var(--secondary-color);
@@ -139,17 +139,18 @@ footer.contact-links a {
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
-footer.contact-links a:hover{
+footer .contact-links a:hover {
   color: white;
   background: var(--branding-color);
 }
-footer .contact-box{
-background: var(--secondary-color);
-padding: 30px 60px;
-border-radius: 10px;}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+  margin: auto 100px;
+}
 
-footer .contact-box p
-{
+footer .contact-box p {
   margin: 0;
 }
 
@@ -162,10 +163,10 @@ footer .contact-box p
   h2 {
     font-size: 44px;
   }
-  h3{
+  h3 {
     font-size: 26px;
   }
-  
+
   .hero {
     padding: 80px 20px;
   }
@@ -179,15 +180,14 @@ footer .contact-box p
   nav a {
     font-size: 14px;
   }
-footer .contact-box{
-padding: 30px;
-}}
+  footer .contact-box {
+    padding: 30px;
+  }
+}
 .emoji {
   font-size: 50px;
   display: inline-block;
   animation: shake 1.5s ease-in-out infinite;
-
-
 }
 
 @keyframes shake {
