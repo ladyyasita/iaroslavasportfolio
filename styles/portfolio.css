@@ -51,7 +51,7 @@ p {
   line-height: 1.5;
 }
 .content-container {
-  padding: 160px 80px;
+  padding: 60px 80px;
 }
 
 .content h1 {
@@ -119,7 +119,7 @@ nav li.active a {
   color: var(--branding-color);
 }
 footer {
-  margin: 60px 0;
+  margin: 0 60px;
 }
 footer .email-link {
   text-decoration: none;
@@ -147,7 +147,6 @@ footer .contact-box {
   background: var(--secondary-color);
   padding: 30px 120px;
   border-radius: 10px;
-  margin: auto 100px;
 }
 
 footer .contact-box p {
@@ -166,9 +165,9 @@ footer .contact-box p {
   h3 {
     font-size: 26px;
   }
-
-  .hero {
-    padding: 80px 20px;
+  .content {
+    text-align: center;
+    padding: 0;
   }
   .project-decription {
     padding: 0;

@@ -28,12 +28,45 @@
       src="https://kit.fontawesome.com/b89a0669a4.js"
       crossorigin="anonymous"
     ></script>
-
+    <meta
+      name="description"
+      content=" I am Iaroslava Pozniak, a Front-End Developer skilled in HTML, CSS, JavaScript, React, and responsive design. Explore my portfolio of innovative web projects and learn about my journey in web development. My contact information at the bottom of the page."
+    />
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>Document</title>
+    <title>About Me | Iaroslava Pozniak</title>
   </head>
   <body>
-      <div class="content-container container">
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage"
+          ><img
+            src="images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Iaroslava logo"
+          />
+          <img
+            src="images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="Iaroslava logo"
+          />
+        </a>
+        <ul>
+          <li class="active">
+            <a href="index.html" title="Homepage">Home</a>
+          </li>
+          <li class="active">
+            <a href="about.html" title="About Iaroslava">About me</a>
+          </li>
+          <li class="active">
+            <a href="work.html" title="Iaroslava's work">Work</a>
+          </li>
+          <li class="active">
+            <a href="contact.html" title="Contact Iaroslava">Contact me</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
           <div class="content">
@@ -48,13 +81,62 @@
               large language ocean. A small river named Duden flows by
             </p>
 
-            <a href="" class="btn btn-branding">Learn about my projects</a>
+            <a href="/work.html" class="btn btn-branding"
+              >Learn about my projects</a
+            >
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/me.jpg" alt="" class="img-fluid" />
+          <img src="images/me.jpg" alt="Iaroslava's photo" class="img-fluid" />
         </div>
       </div>
+      <footer class="conainer">
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work inquiry</h3>
+            <p class="text-muted">Let's get in touch</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-4"
+              title="Contact Iaroslava"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a
+            href="mailto:iaroslavapozniak@gmail.com"
+            class="email-link"
+            title="email Iaroslava"
+            >iaroslavapozniak@gmail.com</a
+          >
+        </div>
+        <div class="contact-links d-flex justify-content-center">
+          <a href="https://www.instagram.com/chikitadefuego" target="_blank"
+            ><i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/iaroslava-pozniak-78298563/"
+            target="_blank"
+            title="linkedin profile"
+            ><i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://github.com/ladyyasita"
+            target="_blank"
+            title="Github profile"
+            ><i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
+        <p class="text-center">
+          This project was coded SheCodes, it is
+          <a href="https://github.com/ladyyasita" target="_blank"
+            >open-sourced</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
